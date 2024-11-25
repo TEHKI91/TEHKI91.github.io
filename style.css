@@ -1,2 +1,117 @@
 html 
-body
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://t4.ftcdn.net/jpg/02/15/78/83/240_F_215788305_AfQWndkKmDVmS9T02F2mJMPt61RiyJby.jpg")
+}
+ul{
+   display: flex;
+   justify-content: flex-end;
+   gap: 20px;;
+    list-style: none;
+
+}
+#introduction li{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 104px;
+    justify-content: center;
+}
+#introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#introduction img{
+    border: solid 2px black;
+    
+    object-fit: cover;   
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border: solid 1px black;
+    height: 100%;
+    width: 100%;
+    
+}
+nav h3{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 98px;
+    align-items: center;
+}
+nav li{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 98px;
+    align-items: center;
+}
+#introduction h1{
+    display: flex;
+    
+    
+}
+
+#Compétence li{
+    display: flex;
+    flex-direction: column;
+}
+#Compétence {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#Réalisations h2{
+    display: flex;
+    justify-content: center;
+}
+#Réalisations ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 320px;
+}
+#Réalisations img{
+    border: solid 2px black;
+    
+    object-fit: cover;
+}
+
+#Témoignages h2{
+    display: flex;
+    justify-content: center;
+}
+#Témoignages li{
+    display: flex;
+    flex-direction: row;
+}
+#Témoignages div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(170, 170, 244);
+    width: 246px;
+    height: 230px;
+    
+}
+#Témoignages img{
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 100%;
+    object-fit: cover;
+}
+#Témoignages p{
+    font-weight: 700;
+}
+
+
